@@ -1,4 +1,5 @@
 import 'package:challenge/config/state/index.dart';
+import 'package:challenge/config/widgets/SplashScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -28,7 +29,7 @@ class _MyAppState extends State<MyApp> {
       ),
       home:
           // Switch between the splash screen and the home screen here.
-          HomePage(),
+      SplashScreen()
     );
   }
 }
